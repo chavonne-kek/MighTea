@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/Quicksand_Bold.otf') format('otf')
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico.ttf') format('ttf')
+}
+@font-face {
+    font-family: 'Cutive';
+    src: url('fonts/Cutive-Regular.ttf') format('ttf')
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #5F3D32;
+}
+
+/*nav{
+    background-color: #5F3D32;
+    color: #FFEED9;
+    width: 300px;
+}*/
+.heroImg {
+    background-image: url('images/hero.png');
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+    margin-top: 2vh;
+    padding: 1vw 1vw;
+    font-size: 20pt;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #FFEED9;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    font-size: 70pt;
+    color: #ECBA7F;
+    margin-top: 17vh;
+}
+
+.migh {
+    font-family: 'Pacifico';
+    margin-right: 0.5vw;
+}
+
+.tea {
+    font-family: 'Quicksand';
+}
+
+.tag {
+    align-items: center;
+    text-align: center;
+    font-size: 55pt;
+    color: #ECBA7F;
+    margin-top: 4vh;
+    font-family: 'Poppins';
+    font-weight: 800;
+
+}
+
+.molo {
+    color: #5F3D32;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ECBA7F;
+}
+
+.best {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #5F3D32;
+}
+
+@media screen and (max-width:769px) {
+    .title {
+        font-size: 40pt;
+        margin-top: 10vh;
+    }
+
+    .tag {
+        font-size: 35pt;
+    }
+
+    .navLogo {
+        width: 130px;
+        margin-left: 1vw;
+    }
+
+    .nav {
+        margin-top: 2vh;
+        margin-right: 1vw;
+        padding: 1vw 1vw;
+        font-size: 15pt;
+    }
+
+    .heroImg {
+        background-image: url('images/hero.png');
+        background-repeat: no-repeat;
+        height: 600px;
+        width: auto
+    }
+}
+
+.bbtImg {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.aboutText1 {
+
+    font-family: 'Bahnschrift';
+    color: #FFEED9;
+    font-size: 20pt;
+    flex: 0.7;
+    margin-left: 2vw;
+}
+
+.aboutImg1 {
+    text-align: center;
+    margin-left: 16vw;
+    flex: 0.5;
+}
+.about {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:1025px) {
+    .bbtImg {
+        width: 330px;
+        height: 330px;
+        object-fit: cover;
+        
+    }
+    .aboutText1 {
+        font-size: 15pt;
+
+    }
+}
+@media screen and (max-width:769px) {
+    .bbtImg {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        
+    }
+    .about{
+        display: inline-block;
+        text-align: center;
+        margin-left: 27vw;
+    }
+    .aboutImg1 {
+        text-align: center;
+        margin-left: 2vw;
+        flex: 0.5;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .about{
+        margin-left: 12.5vw;
+        margin-right: 12.5vw;
+    }
+
+}
+
+
+.divider {
+    margin-top: 3vh;
+}
+
+
+
+.menuHead {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #FFEED9;
+    margin-top: 10vh;
+    text-align: center;
+    margin-bottom: none;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+}
