@@ -1,14 +1,10 @@
 @font-face {
     font-family: 'Quicksand';
-    src: url('fonts/Quicksand_Bold.otf') format('otf')
+    src: url('fonts/Quicksand_Bold.otf') format('opentype')
 }
 @font-face {
     font-family: 'Pacifico';
-    src: url('fonts/Pacifico.ttf') format('ttf')
-}
-@font-face {
-    font-family: 'Cutive';
-    src: url('fonts/Cutive-Regular.ttf') format('ttf')
+    src: url('fonts/Pacifico.ttf') format('truetype')
 }
 
 body {
@@ -59,12 +55,12 @@ nav {
 }
 
 .migh {
-    font-family: 'Pacifico';
+    font-family: 'Pacifico', cursive;
     margin-right: 0.5vw;
 }
 
 .tea {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand',serif;
 }
 
 .tag {
