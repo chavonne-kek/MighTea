@@ -6,7 +6,9 @@
     font-family: 'Pacifico';
     src: url('fonts/Pacifico.ttf') format('truetype')
 }
-
+.wrapper{
+    overflow-x: hidden;
+}
 body {
     overflow-x: hidden;
     background-color: #5F3D32;
@@ -121,14 +123,49 @@ nav {
     object-fit: cover;
 }
 
-.aboutText1 {
+.about1{
+    text-align: center;
+}
 
-    font-family: 'Bahnschrift';
+.aboutText1 {
+    font-family: 'Quicksand';
     color: #FFEED9;
     font-size: 20pt;
-    flex: 0.7;
-    margin-left: 2vw;
+    width: 500px;
+    height: auto;
+    margin-top: 8vh;
+
 }
+
+@media screen and (max-width:1025px) and (min-width:1024px) {
+    .aboutText1 {
+        margin-top: 0vh;
+        margin-left: 18vw;
+    }
+
+}
+@media screen and (max-width:769px) and (min-width:768px) {
+    .aboutText1 {
+        margin-top: 0vh;
+        margin-left: 8vwx;
+
+    }
+
+}
+@media screen and (max-width:426px) {
+    .bbtImg {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .aboutText1{
+        margin-top: 0vh;
+        font-size: 15pt;
+    }
+    
+}
+
+
 
 .aboutImg1 {
     text-align: center;
@@ -141,44 +178,6 @@ nav {
     align-items: center;
 }
 
-@media screen and (max-width:1025px) {
-    .bbtImg {
-        width: 330px;
-        height: 330px;
-        object-fit: cover;
-        
-    }
-    .aboutText1 {
-        font-size: 15pt;
-
-    }
-}
-@media screen and (max-width:769px) {
-    .bbtImg {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-        
-    }
-    .about{
-        display: inline-block;
-        text-align: center;
-        margin-left: 27vw;
-    }
-    .aboutImg1 {
-        text-align: center;
-        margin-left: 2vw;
-        flex: 0.5;
-    }
-}
-
-@media screen and (max-width:426px) {
-    .about{
-        margin-left: 12.5vw;
-        margin-right: 12.5vw;
-    }
-
-}
 
 
 .divider {
@@ -197,6 +196,18 @@ nav {
 }
 
 .menu {
-    width: 100%;
-    height: auto;
+    background-color: #FFEED9;
 }
+.menuRow{
+    text-align: center;
+}
+.menuImg{
+    margin: 5vh;
+}
+.menu2{
+    text-align: left;
+}
+.menu4{
+    text-align: left;
+}
+
