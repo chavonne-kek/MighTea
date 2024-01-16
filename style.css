@@ -137,17 +137,19 @@ nav {
 
 }
 
-@media screen and (max-width:1025px) and (min-width:1024px) {
+@media screen and (max-width:1100px) and (min-width:1000px) {
     .aboutText1 {
         margin-top: 0vh;
-        margin-left: 18vw;
+        margin-left: 16.5vw;
     }
 
 }
-@media screen and (max-width:769px) and (min-width:768px) {
+@media screen and (max-width:819px) and (min-width:718px) {
+    
     .aboutText1 {
         margin-top: 0vh;
-        margin-left: 8vwx;
+        margin-left: 6vw;
+        font-size: 16pt;
 
     }
 
@@ -168,14 +170,11 @@ nav {
 
 
 .aboutImg1 {
-    text-align: center;
     margin-left: 16vw;
     flex: 0.5;
 }
-.about {
-    margin-top: 5vh;
-    display: flex;
-    align-items: center;
+.about1 {
+text-align: center;
 }
 
 
@@ -193,21 +192,27 @@ nav {
     margin-top: 10vh;
     text-align: center;
     margin-bottom: none;
+    font-size: 35pt;
 }
 
 .menu {
     background-color: #FFEED9;
 }
 .menuRow{
-    text-align: center;
+    display: none;
 }
-.menuImg{
-    margin: 5vh;
+
+
+@media screen and (max-width:769px) {
+    .menuRow{
+        display:block;
+        display: flex;
+        padding-bottom: 3vh;
+    }
+    .menuLg{
+        display:none;
+    }
 }
-.menu2{
-    text-align: left;
-}
-.menu4{
-    text-align: left;
-}
+
+
 
